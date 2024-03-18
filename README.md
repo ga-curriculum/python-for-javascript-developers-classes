@@ -1,4 +1,4 @@
-# ![[tktk Module Name]](./assets/tktk-hero.png)
+# ![Python Classes](./assets/tktk-hero.png)
 
 ## About
 
@@ -12,33 +12,29 @@ tktk Write a short but descriptive summary of the content in this module.
 
 ## Content
 
-| Lesson | Video Time | Video | Skills |
-| ------ |:----------:|:-----:| ------ |
-| [Setup](./setup/README.md)                               | -- | -- | Setting up the development environment  |
-| [Concepts](./concepts/README.md)                         | -- | -- | tktk skills covered                     |
-| [tktk Microlesson Name](./tktk-microlesson-01/README.md) | -- | -- | tktk skills covered                     |
-| [tktk Microlesson Name](./tktk-microlesson-02/README.md) | -- | -- | tktk skills covered                     |
-| [tktk Microlesson Name](./tktk-microlesson-03/README.md) | -- | -- | tktk skills covered                     |
-| **Total content**                                        | -- | -- |                                         |
+| Lesson                                                   | Video Time | Video | Skills                                 |
+| -------------------------------------------------------- | :--------: | :---: | -------------------------------------- |
+| [Setup](./setup/README.md)                               |     --     |  --   | Setting up the development environment |
+| [Concepts](./concepts/README.md)                         |     --     |  --   | tktk skills covered                    |
+| [Writing a Python `class`](./writing-a-python-class/README.md) |     --     |  --   | tktk skills covered                    |
+| [Instantiating a `class` ](./instantiating-a-class/README.md) |     --     |  --   | tktk skills covered                    |
+| [Overriding Methods](./overriding-methods/README.md) |     --     |  --   | tktk skills covered                    |
+| [You Do: Create a Vehicle Class](./create-a-vehicle-class/README.md) |     --     |  --   | tktk skills covered                    |
+| [Class vs. Instance Members](./class-vs-instance-members/README.md) |     --     |  --   | tktk skills covered                    |
+| [Inheritance](./inheritance/README.md) |     --     |  --   | tktk skills covered                    |
+| **Total content**                                        |     --     |  --   |                                        |
 
 ## Level Up content
 
-| Lesson | Video Time | Video | Skills |
-| ------ |:----------:|:-----:| ------ |
-| [tktk Microlesson Name](./tktk-microlesson-04/README.md) | -- | -- | tktk skills covered                     |
-| **Total Level Up content**                               | -- | -- |                                         |
+| Lesson                                                   | Video Time | Video | Skills              |
+| -------------------------------------------------------- | :--------: | :---: | ------------------- |
+| [You Do: Create a `BankAccount` class](./create-a-bank-account-class/README.md) |     --     |  --   | tktk skills covered |
+| [You Do: Create a `SavingsAccount` sub class](./create-a-savings-account-subclass/README.md) |     --     |  --   | tktk skills covered |
+| **Total Level Up content**                               |     --     |  --   |                     |
 
 ## References
 
 📖 [Reference Materials](./references/README.md)
-
-## Deployed sites
-
-tktk If there is not a deployed site related to this module this section and all of its content should be removed.
-
-🌐 [Live site](#tktk-deployed-app-url)
-
-🐙 [Repository](#tktk-repository-for-deployed-app)
 
 ## Internal resources
 
