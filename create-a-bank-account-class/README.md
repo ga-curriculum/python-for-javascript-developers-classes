@@ -28,3 +28,11 @@ self.account_no = random.randint(111111111, 999999999)
 ```
 
 Create two instances, make both deposits and withdrawals, and print the attributes to test them out.
+
+## Bonus 1
+
+Override the `__str__` method to return the following formatted string:
+
+```python
+Account <account_no> / Balance: xxxxx.xx
+```

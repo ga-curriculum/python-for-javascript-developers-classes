@@ -10,14 +10,6 @@ Continue in the same Python file…
 
 Add to the `BankAccount` class the following:
 
-## Bonus 1
-
-Override the `__str__` method to return the following formatted string:
-
-```python
-Account <account_no> / Balance: xxxxx.xx
-```
-
 ## Bonus 2
 
 Create a `SavingsAccount` class that subclasses `BankAccount` and specializes it so that the `withdraw` method no longer accepts any argument, does not change the balance, and returns a string of `No withdrawals permitted`.
