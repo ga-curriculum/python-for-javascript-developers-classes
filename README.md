@@ -2,35 +2,33 @@
 
 ## About
 
-tktk Write a short but descriptive summary of the content in this module.
+In this module, we're going to explore classes in the Python language.
 
 ## Prerequisites
 
-- tktk
-- tktk
-- tktk
+- Intro to Python
 
 ## Content
 
-| Lesson                                                   | Video Time | Video | Skills                                 |
-| -------------------------------------------------------- | :--------: | :---: | -------------------------------------- |
-| [Setup](./setup/README.md)                               |     --     |  --   | Setting up the development environment |
-| [Concepts](./concepts/README.md)                         |     --     |  --   | tktk skills covered                    |
-| [Writing a Python `class`](./writing-a-python-class/README.md) |     --     |  --   | tktk skills covered                    |
-| [Instantiating a `class` ](./instantiating-a-class/README.md) |     --     |  --   | tktk skills covered                    |
-| [Overriding Methods](./overriding-methods/README.md) |     --     |  --   | tktk skills covered                    |
-| [You Do: Create a Vehicle Class](./create-a-vehicle-class/README.md) |     --     |  --   | tktk skills covered                    |
-| [Class vs. Instance Members](./class-vs-instance-members/README.md) |     --     |  --   | tktk skills covered                    |
-| [Inheritance](./inheritance/README.md) |     --     |  --   | tktk skills covered                    |
-| **Total content**                                        |     --     |  --   |                                        |
+| Lesson | Video Time | Video | Skills |
+| ------ | :--------: | :---: | ------ |
+| [Setup](./setup/README.md) | -- | -- | Setting up the development environment |
+| [Concepts](./concepts/README.md) | -- | -- | tktk skills covered |
+| [Writing a Python `class`](./writing-a-python-class/README.md) | -- | -- | tktk skills covered |
+| [Instantiating a `class` ](./instantiating-a-class/README.md) | -- | -- | tktk skills covered |
+| [Overriding Methods](./overriding-methods/README.md) | -- | -- | tktk skills covered |
+| [You Do: Create a Vehicle Class](./create-a-vehicle-class/README.md) | -- | -- | tktk skills covered |
+| [Class vs. Instance Members](./class-vs-instance-members/README.md) | -- | -- | tktk skills covered |
+| [Inheritance](./inheritance/README.md) | -- | -- | tktk skills covered |
+| **Total content** | -- |  --   |  |
 
 ## Level Up content
 
-| Lesson                                                   | Video Time | Video | Skills              |
-| -------------------------------------------------------- | :--------: | :---: | ------------------- |
-| [You Do: Create a `BankAccount` class](./create-a-bank-account-class/README.md) |     --     |  --   | tktk skills covered |
-| [You Do: Create a `SavingsAccount` sub class](./create-a-savings-account-subclass/README.md) |     --     |  --   | tktk skills covered |
-| **Total Level Up content**                               |     --     |  --   |                     |
+| Lesson | Video Time | Video | Skills |
+| ------ | :--------: | :---: | ------ |
+| [You Do: Create a `BankAccount` class](./create-a-bank-account-class/README.md) | -- | -- | tktk skills covered |
+| [You Do: Create a `SavingsAccount` sub class](./create-a-savings-account-subclass/README.md) | -- |  --  | tktk skills covered |
+| **Total Level Up content** | -- |  --   |  |
 
 ## References
 
