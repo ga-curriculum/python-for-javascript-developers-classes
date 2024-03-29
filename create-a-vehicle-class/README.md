@@ -1,6 +1,6 @@
 # ![Python Classes - tktk Microlesson Name](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to tktk
+**Learning objective:** By the end of this lesson, students will be able to practice creating a class in Python.
 
 ## Exercise - Create a Class (15 min)
 

@@ -1,6 +1,6 @@
 # ![Python Classes - tktk Microlesson Name](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to create a class and instantiate objects from it.
+**Learning objective:** By the end of this lesson, students will be able to create a sub class and instantiate objects from it.
 
 ## Level Up 🚀 
 
