@@ -1,8 +1,8 @@
-# ![Python Classes - tktk Microlesson Name](./assets/hero.png)
+# ![Python Classes - Create a Vehicle Class](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to practice creating a class in Python.
+**Learning objective:** By the end of this lesson, students will have more practice creating classes in Python.
 
-## Exercise - Create a Class (15 min)
+## 🎓 You Do: Create a Vehicle class
 
 Define a class named `Vehicle` with the following members:
 
@@ -13,18 +13,23 @@ Define a class named `Vehicle` with the following members:
 - **`start`**: method for changing `running` to `True`
 - **`stop`**: method for changing `running` to `False`
 
-Test out the class by instantiating it a couple of times, calling `start`/`stop` methods and printing some of its attributes:
+Test out the class by instantiating it a couple of times, calling the  `start` and `stop` methods, and printing some of its attributes:
 
 ```python
 car = Vehicle('TS123', 'Tesla', 'Model S')
-print(car.running) # -> False
-car.start()
-print(car.running) # -> True
-plane = Vehicle('X99Y', 'Boeing', '747-B')
-print(plane.vin, plane.make, plane.model)
-```
-Override the __str__ method so that it returns a string formatted as:
 
-```python
-Vehicle (<vin>) is a <make> <model>
+print(car.running) # -> False
+
+car.start()
+
+print(car.running) # -> True
+
+plane = Vehicle('X99Y', 'Boeing', '747-B')
+
+print(plane.vin, plane.make, plane.model) # -> 'X99Y', 'Boeing', '747-B'
+```
+Override the `__str__` method so that it returns a string formatted as:
+
+```text
+Vehicle <vin> is a <make> <model>
 ```

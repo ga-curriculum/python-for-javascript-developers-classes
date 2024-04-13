@@ -1,21 +1,17 @@
-# ![Python Classes - tktk Microlesson Name](./assets/hero.png)
+# ![Python Classes - Create a Savings Account Class](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to create a sub class and instantiate objects from it.
 
-## Level Up 🚀 
+##  🎓 You Do: Create a `SavingsAccount` Class  
 
-Looking for some MORE practice building an object hierarchy in Python? Good!
+Looking for even more practice building an object hierarchy in Python? Great!
 
-Continue in the same Python file…
+### Extend the `BankAccount` Class
 
-Add to the `BankAccount` class the following:
+- First, modify the existing `BankAccount` class to include an additional attribute called `has_overdraft`. This attribute should accept a Boolean value (True or False). It should default to `False` if no value is provided during instantiation. This requires using a default parameter in the class's constructor.
 
-## Bonus 2
+- Adjust the withdraw method to check the `has_overdraft` status. If `has_overdraft` is `False` and the withdrawal amount exceeds the balance, deny the withdrawal and return an appropriate message. Otherwise, deduct the amount from the balance and return the new balance.
 
-Create a `SavingsAccount` class that subclasses `BankAccount` and specializes it so that the `withdraw` method no longer accepts any argument, does not change the balance, and returns a string of `No withdrawals permitted`.
+### Create a `SavingsAccount` Class
 
-## Bonus 3
-
-Add an additional `has_overdraft` attribute to the `BankAccount` class that accepts `True` or `False` at the time of instantiation, but defaults to `False` if not passed in (hint: review default parameters discussed above).
-
-When the `withdraw` method is called, do not allow the withdraw if the amount being withdrawn is greater than `balance`, unless `has_overdraft` is `True`. `withdraw` should continue to return the `balance`.
+- Next, create a new `SavingsAccount` class that subclasses the `BankAccount` class. This new class should *specialize* the withdraw method. In the `SavingsAccount` class, override the withdraw method so that it no longer accepts any arguments, does not change the account balance, and returns the message `"No withdrawals permitted"`.

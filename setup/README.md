@@ -15,8 +15,6 @@ mkdir python-classes
 cd python-classes
 ```
 
-<!-- Other setup instructions here -->
-
 Open the contents of the directory in VSCode:
 
 ```bash

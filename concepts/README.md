@@ -1,51 +1,27 @@
 # ![Python Classes - Concepts](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to create and use classes in Python.
+**Learning objective:** By the end of this lesson, students will understand basic principles of object-oriented programming in Python, including the creation and manipulation of classes and objects.
 
-# Review of OOP
+## Overview of Object-Oriented Programming (OOP)
 
-Python is an **object-oriented programming (OOP) language**.
+Object-oriented programming (OOP) is a programming paradigm that uses "objects" to design applications and computer programs. These objects represent real-world entities, encapsulating related properties (attributes) and behaviors (methods). Python is an object-oriented programming language, and this concept is central to writing efficient and effective Python code.
 
-Object-oriented programming is characterized by programming with **objects** that represent the real-world objects of the application.
+### Key Principles of OOP in Python
 
-<details>
-<summary>❓ What are classes used for in OOP?</summary>
+**Classes:**
 
-**Classes are used to create objects.**
-</details>
-    
-A key principle of OOP we discussed during the JS Classes lesson was **encapsulation**…
+- Classes are the blueprints for creating objects. They define a set of attributes and methods that characterize any object of the class.
 
-<details>
-<summary>❓ What’s encapsulation?</summary>
+**Encapsulation:**
 
-**The bundling of related properties (attributes) and methods (behavior) together in an object.**
-</details>
+- Encapsulation refers to the bundling of data (attributes) and methods (actions) that operate on the data into a single unit or class. It also restricts direct access to some of an object’s components, which can prevent the accidental modification of data.
 
-Another key principle of OOP we discussed was **inheritance**…
+**Inheritance:**
 
-<details>
-<summary>❓ What’s inheritance?</summary>
+- Inheritance is a mechanism where a new class derives attributes and methods from an existing class. The new class is called a derived (or child) class, and the class that it derives from is called the base (or parent) class. This feature allows for code reusability and the creation of more complex behaviors based on simple classes.
 
-**When a class subclasses/extends another class and thus inherits that parent/superclass’s attributes & methods.**
-</details>
+## Classes and objects in Python
 
-## Objects in Python
+In Python, the concept that everything is treated as an object is fundamental. This means that every entity, whether it's a data structure or a user-defined data type, has attributes (properties) and behaviors (methods) defined by its class. A class in Python acts as a blueprint for creating objects (instances), and building these classes yourself is a powerful way to grasp object-oriented programming (OOP) principles.
 
-As you’ve already heard, everything in Python is an object. What this means is that every variable or piece of data has properties and/or methods encapsulated within the object.
-
-Python provides a `dir()` function that can be used to list an object’s members (attributes and methods):
-
-```python
-# create a list
-nums = [1, 2, 3]
-print( dir(nums) )
-```
-
-Some of the members like `append` & `pop` might look familiar.
-
-The other methods that start and end with double-underscores, are called *[**magic* (or *dunder*) methods**](https://rszalski.github.io/magicmethods/). They are internal methods most commonly used to *overload* operators. If you would like to learn more about them, be sure to check out the link in the Further Study section.
-
-We’ll be using the `__init__` dunder method shortly.
-
-When we start working with Django, we’ll be defining quite a few classes, so let’s see how to we do it…
+You'll see how encapsulation protects the data within an object, and how inheritance lets you extend and customize existing code. 
