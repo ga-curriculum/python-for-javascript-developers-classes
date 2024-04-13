@@ -1,12 +1,12 @@
-# ![Python Classes - tktk Microlesson Name](./assets/hero.png)
+# ![Python Classes - Create a Bank Account Class](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to create a class and instantiate objects from it.
 
-## Level Up 🚀 
+## 🎓 You Do: Create a `BankAccount` Class 
 
 Looking for some practice building an object hierarchy in Python? Good!
 
-In a separate Python file…
+In a separate Python file:
 
 Create a `BankAccount` class with the following members:
 
@@ -19,7 +19,6 @@ Create a `BankAccount` class with the following members:
 Here’s how to generate a random integer for the in Python:
 
 ```python
-# Put this line at the top of the repl
 import random
 
 # Use this inside of BankAccount's __init__ to generate
@@ -34,5 +33,5 @@ Create two instances, make both deposits and withdrawals, and print the attribut
 Override the `__str__` method to return the following formatted string:
 
 ```python
-Account <account_no> / Balance: xxxxx.xx
+Account <account_no> - Balance: xxxxx.xx
 ```
