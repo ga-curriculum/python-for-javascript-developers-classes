@@ -1,4 +1,4 @@
-# ![Python Classes](../assets/tktk-hero.png)
+# ![Python Classes](../assets/hero.png)
 
 ## About
 
