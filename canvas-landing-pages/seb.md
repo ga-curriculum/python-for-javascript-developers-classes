@@ -1,4 +1,4 @@
-# ![Python for JavaScript Developers - Python Classes](../assets/tktk-hero.png)
+# ![Python for JavaScript Developers - Python Classes](../assets/hero.png)
 
 ## About
 
