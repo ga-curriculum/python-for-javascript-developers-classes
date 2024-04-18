@@ -27,7 +27,7 @@ class ShowDog(Dog):
         print(f'{self.name}\'s new total earnings are ${self.total_earnings}')
 ```
 
-> If not specified, the default superclass is Python's `object` class. This is how we get methods like `__str__()`.
+> 🧠 If not specified, the default superclass is Python's `object` class. This is how we get methods like `__str__()`.
 
 It's show time!
 
