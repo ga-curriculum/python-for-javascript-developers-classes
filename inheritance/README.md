@@ -35,15 +35,21 @@ It's show time!
 winky = ShowDog('Winky', 3, 1000)
 
 print(winky)
-# Yay, inherited the overriden __str__
+# prints: Dog #3 named Winky is 3 years old.
 
-winky.bark() # Yay, inherited the bark method
+winky.bark()  
+# prints: Winky says woof!
+# the `ShowDog` class inherited the `Dog` class' `__str__()` and `bark()` method
 
-print(winky.total_earnings) # -> 1000
+print(winky.total_earnings)
+# prints: 1000
 
-winky.add_prize_money(500) # New method that 'Dogs' don't have
+winky.add_prize_money(500)
+# a new method that instances of the 'Dog' class don't have
 
-print(winky.total_earnings) # -> 1500  Go winky go!
+print(winky.total_earnings)
+# prints: 1500
+# go Winky go!
 ```
 
 Inheritance is critical to OOP languages. They even have their own **object hierarchies**.
