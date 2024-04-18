@@ -1,4 +1,4 @@
-# ![Python Classes - References](./assets/hero.png)
+# ![Python for JavaScript Developers - Python Classes - References](./assets/hero.png)
 
 ## Lesson references
 

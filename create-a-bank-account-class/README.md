@@ -1,8 +1,8 @@
-# ![Python Classes - Create a Bank Account Class](./assets/hero.png)
+# ![Python for JavaScript Developers - Python Classes - Create a Bank Account Class](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to create a class and instantiate objects from it.
 
-## 🎓 You Do: Create a `BankAccount` Class 
+## 🎓 You Do: Create a `BankAccount` Class
 
 Looking for some practice building an object hierarchy in Python? Good!
 

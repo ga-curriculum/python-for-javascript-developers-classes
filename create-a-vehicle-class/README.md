@@ -1,35 +1,32 @@
-# ![Python Classes - Create a Vehicle Class](./assets/hero.png)
+# ![Python for JavaScript Developers - Python Classes - Create a Vehicle Class](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will have more practice creating classes in Python.
 
-## 🎓 You Do: Create a Vehicle class
+## 🎓 You Do
 
 Define a class named `Vehicle` with the following members:
 
-- **`vin`**: attribute for the vehicle’s identification
-- **`make`**: attribute for the vehicle’s make
-- **`model`**: attribute for the vehicle’s model
-- **`running`**: attribute for maintaining whether or not the vehicle is running. This should be set to `False` within the `__init__` method instead of being passed in at the time of instantiation.
-- **`start`**: method for changing `running` to `True`
-- **`stop`**: method for changing `running` to `False`
+- **`make`**: attribute for the vehicle's make.
+- **`model`**: attribute for the vehicle's model.
+- **`running`**: attribute for maintaining whether or not the vehicle is running. Initialize `self.running` to a default of `False` within the `__init__()` method instead of passing the value in as an argument.
+- **`start()`**: method for changing `running` to `True`. It should also print the string: `"Starting up!"`
+- **`stop()`**: method for changing `running` to `False`. It should also print the string: `"Turning off."`
+- Override the `__str__` method so that it returns a string formatted as: `The vehicle is a <make> <model>.` `<make>` and `<model>` should be replaced with the actual values of the make and model of the vehicle.
 
-Test out the class by instantiating it a couple of times, calling the  `start` and `stop` methods, and printing some of its attributes:
+Test out the class by instantiating it, creating a vehicle of your choice. Call the `start()` and `stop()` methods, and print some of its attributes:
 
 ```python
-car = Vehicle('TS123', 'Tesla', 'Model S')
+car = Vehicle("Toyota", "RAV4")
 
-print(car.running) # -> False
+print(car)
+# prints: The vehicle is a Toyota RAV4.
+
+print(car.running) 
+# prints: False
 
 car.start()
+# prints: Starting up!
 
-print(car.running) # -> True
-
-plane = Vehicle('X99Y', 'Boeing', '747-B')
-
-print(plane.vin, plane.make, plane.model) # -> 'X99Y', 'Boeing', '747-B'
-```
-Override the `__str__` method so that it returns a string formatted as:
-
-```text
-Vehicle <vin> is a <make> <model>
+print(car.running) 
+# prints: True
 ```

@@ -1,42 +1,42 @@
-# ![Python Classes - Inheritance](./assets/hero.png)
+# ![Python for JavaScript Developers - Python Classes - Inheritance](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to demonstrate inheritance through generating subclasses.
 
 ## Inheritance
 
-Inheritance is a powerful feature in object-oriented programming that allows a class (known as a **subclass**) to inherit attributes and methods from another class (called a **superclass**). This enables the subclass to reuse code from the superclass without having to rewrite it.
+Inheritance is a powerful feature in object-oriented programming that allows a class (known as a ***subclass***) to inherit attributes and methods from another class (called a ***superclass***). This enables the subclass to reuse code from the superclass without having to rewrite it.
 
-The subclass can then add its own unique attributes and methods, making it more _specialized_ than the superclass.
+The subclass can then add its own unique attributes and methods, making it more specialized than the superclass.
 
 tktk - Hunter this was ported over from the notion content does it need an update?
 ![Inheritance](./assets/inheritance.png)
 
-Let’s see how inheritance is implemented in Python by creating a `ShowDog` class that specializes the `Dog` class:
+Let's see how inheritance is implemented in Python by creating a `ShowDog` class that specializes the `Dog` class:
 
 ```python
-# Define the subclass by passing the superclass as an argument
 class ShowDog(Dog):
-  # Add additional parameters AFTER those in the superclass
-  def __init__(self, name, age=0, total_earnings=0):
-    # Always call the superclass's __init__ first
-    Dog.__init__(self, name, age)
-    # Now add any new attributes
-    self.total_earnings = total_earnings
-  
-  # Add additional methods
-  def add_prize_money(self, amount):
-    self.total_earnings += amount
-    print(f'{self.name}\'s new total earnings are ${self.total_earnings}')
+    # add additional parameters AFTER those in the superclass
+    def __init__(self, name, age=0, total_earnings=0):
+        # always call the superclass's __init__ first
+        Dog.__init__(self, name, age)
+        # then add any new attributes
+        self.total_earnings = total_earnings
+
+    # add additional methods
+    def add_prize_money(self, amount):
+        self.total_earnings += amount
+        print(f'{self.name}\'s new total earnings are ${self.total_earnings}')
 ```
 
-> If not specified, the default superclass is Python’s object class.
+> If not specified, the default superclass is Python's `object` class. This is how we get methods like `__str__()`.
 
-It’s show time!
+It's show time!
 
 ```python
 winky = ShowDog('Winky', 3, 1000)
 
-print(winky) # Yay, inherited the overriden __str__
+print(winky)
+# Yay, inherited the overriden __str__
 
 winky.bark() # Yay, inherited the bark method
 
@@ -47,14 +47,14 @@ winky.add_prize_money(500) # New method that 'Dogs' don't have
 print(winky.total_earnings) # -> 1500  Go winky go!
 ```
 
-Inheritance is critical to OOP languages. In fact, they even have their own **object hierarchies**. 
+Inheritance is critical to OOP languages. In fact, they even have their own **object hierarchies**.
 
 Check it out:
 
 tktk - Hunter this was ported over from the notion content does it need an update?
 ![Object Hierarchy](./assets/type-hierarchy.png)
 
-Frameworks like Django and Rails have elaborate object hierarchies of their own. For example in Django, Models are defined by inheriting from a Django class like this:
+Frameworks like Django have elaborate object hierarchies of their own. For example in Django, Models are defined by inheriting from a Django class like this:
 
 ```python
 class Person(models.Model):

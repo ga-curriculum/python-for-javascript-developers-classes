@@ -1,8 +1,8 @@
-# ![Python Classes - Create a Savings Account Class](./assets/hero.png)
+# ![Python for JavaScript Developers - Python Classes - Create a Savings Account Class](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to create a sub class and instantiate objects from it.
 
-##  🎓 You Do: Create a `SavingsAccount` Class  
+## 🎓 You Do: Create a `SavingsAccount` Class
 
 Looking for even more practice building an object hierarchy in Python? Great!
 
