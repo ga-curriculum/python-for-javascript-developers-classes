@@ -8,7 +8,6 @@ Inheritance is a powerful feature in object-oriented programming that allows a c
 
 The subclass can then add its own unique attributes and methods, making it more specialized than the superclass.
 
-tktk - Hunter this was ported over from the notion content does it need an update?
 ![Inheritance](./assets/inheritance.png)
 
 Let's see how inheritance is implemented in Python by creating a `ShowDog` class that specializes the `Dog` class:
@@ -47,11 +46,10 @@ winky.add_prize_money(500) # New method that 'Dogs' don't have
 print(winky.total_earnings) # -> 1500  Go winky go!
 ```
 
-Inheritance is critical to OOP languages. In fact, they even have their own **object hierarchies**.
+Inheritance is critical to OOP languages. They even have their own **object hierarchies**.
 
 Check it out:
 
-tktk - Hunter this was ported over from the notion content does it need an update?
 ![Object Hierarchy](./assets/type-hierarchy.png)
 
 Frameworks like Django have elaborate object hierarchies of their own. For example in Django, Models are defined by inheriting from a Django class like this:
