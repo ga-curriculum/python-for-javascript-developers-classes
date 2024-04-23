@@ -37,13 +37,13 @@ Note how the `Dog.next_id` class attribute is being accessed within the `__init_
 Let's check that it worked:
 
 ```python
-ruby = Dog('Ruby', 2)
+harry = Dog('Harry', 2)
 
-print(ruby)
+print(harry)
 
-liam = Dog('Liam')
+maggie = Dog('Maggie')
 
-print(liam)
+print(maggie)
 ```
 
 Cool, now let's see how class methods are created by adding a `get_total_dogs` method.
@@ -72,10 +72,10 @@ There are only two differences when defining a class method:
 Let's test out the new class method:
 
 ```python
-ruby = Dog('Spot', 2)
-liam = Dog('Diogee')
+spot = Dog('Spot', 2)
+diogee = Dog('Diogee')
 
 # class methods are called on the class, not an instance
 print(Dog.get_total_dogs()) 
-# prints: 2
+# prints: an integer representing however many dogs you've created!
 ```
