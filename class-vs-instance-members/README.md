@@ -72,8 +72,8 @@ There are only two differences when defining a class method:
 Let's test out the new class method:
 
 ```python
-ruby = Dog('Ruby', 2)
-liam = Dog('Liam')
+ruby = Dog('Spot', 2)
+liam = Dog('Diogee')
 
 # class methods are called on the class, not an instance
 print(Dog.get_total_dogs()) 
