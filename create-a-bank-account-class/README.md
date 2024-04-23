@@ -2,11 +2,11 @@
 
 **Learning objective:** By the end of this lesson, students will be able to create a class and instantiate objects from it.
 
-## 🎓 You Do: Create a `BankAccount` Class
+## 🎓 You Do
+
+Let's create a `BankAccount` class!
 
 Looking for some practice building an object hierarchy in Python? Good!
-
-In a separate Python file:
 
 Create a `BankAccount` class with the following members:
 
