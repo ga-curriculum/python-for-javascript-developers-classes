@@ -35,3 +35,5 @@ Override the `__str__` method to return the following formatted string:
 ```python
 Account <account_no> - Balance: xxxxx.xx
 ```
+
+Replacing `<account_no>` with the actual account number and `xxxxx.xx` with the actual balance.
