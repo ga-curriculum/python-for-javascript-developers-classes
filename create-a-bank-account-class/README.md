@@ -4,9 +4,7 @@
 
 ## 🎓 You Do
 
-Let's create a `BankAccount` class!
-
-Looking for some practice building an object hierarchy in Python? Good!
+Let's get some practice building an object hierarchy in Python by creating a `BankAccount` class!
 
 Create a `BankAccount` class with the following members:
 
