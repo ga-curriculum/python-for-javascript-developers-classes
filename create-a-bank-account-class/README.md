@@ -14,7 +14,9 @@ Create a `BankAccount` class with the following members:
 - **`deposit(amount)`**: (method) When called on an instance, increases the `balance` by the `amount` argument and returns the new balance
 - **`withdraw(amount)`**: (method) When called on an instance, decreases the `balance` by the `amount` argument and returns the new balance
 
-Here’s how to generate a random integer for the in Python:
+## Hint
+
+Here's how to generate a random integer for the in Python:
 
 ```python
 import random
