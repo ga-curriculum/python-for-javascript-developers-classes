@@ -20,7 +20,7 @@ class Dog():
 
 ### `__init__()`
 
-When a new dog is create, Python ***automatically*** calls the `__init__()` method.
+When a new dog is created, Python ***automatically*** calls the `__init__()` method.
 
 In Python, methods with names beginning and ending with double underscores `__` are known as ***dunder*** (double underscore) or ***magic*** methods. These are special methods that Python calls internally for certain operations. When referring to the `__init__()` method by name in conversation, it would be common to use the language ***dunder init***.
 
