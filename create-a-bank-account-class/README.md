@@ -14,6 +14,8 @@ Create a `BankAccount` class with the following members:
 - **`deposit(amount)`**: (method) When called on an instance, increases the `balance` by the `amount` argument and returns the new balance
 - **`withdraw(amount)`**: (method) When called on an instance, decreases the `balance` by the `amount` argument and returns the new balance
 
+Create two instances, make both deposits and withdrawals, and print the attributes to test them out.
+
 ## Hint
 
 Here's how to generate a random integer for the in Python:
@@ -25,8 +27,6 @@ import random
 # a random account number from 111111111 to 999999999
 self.account_no = random.randint(111111111, 999999999)
 ```
-
-Create two instances, make both deposits and withdrawals, and print the attributes to test them out.
 
 ## Bonus
 
