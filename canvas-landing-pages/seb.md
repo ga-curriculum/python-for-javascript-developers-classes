@@ -15,7 +15,7 @@ We'll cover how to create classes, create objects from those classes, and use in
 | [Writing a Python Class](../writing-a-python-class/README.md)        | -- | -- | Create a class in Python.                                  |
 | [Instantiating Objects](../instantiating-objects/README.md)          | -- | -- | Instantiate objects from a class in Python.                |
 | [Overriding Methods](../overriding-methods/README.md)                | -- | -- | Override methods in a class in Python.                     |
-| [Create a Vehicle Class](../create-a-vehicle-class/README.md)        | -- | -- | Create a `Vehicle` class in Python.                        |
+| [Create a `Vehicle` Class](../create-a-vehicle-class/README.md)      | -- | -- | Create a `Vehicle` class in Python.                        |
 | [Class vs. Instance Members](../class-vs-instance-members/README.md) | -- | -- | Compare and contrast class and instance members in Python. |
 | [Inheritance](../inheritance/README.md)                              | -- | -- | Practice class inheritance in Python.                      |
 | **Total content**                                                    | -- | -- |                                                            |
