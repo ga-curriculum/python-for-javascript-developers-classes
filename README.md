@@ -17,7 +17,7 @@ We'll cover how to create classes, make objects from them, and use inheritance a
 | ------ | :--------: | :---: | ------ |
 | [Setup](./setup/README.md)                                          | -- | -- | Setting up the development environment.                    |
 | [Concepts](./concepts/README.md)                                    | -- | -- | Describe classes in Python.                                |
-| [Writing a Python `class`](./writing-a-python-class/README.md)      | -- | -- | Create a class in Python.                                  |
+| [Writing a Python Class](./writing-a-python-class/README.md)        | -- | -- | Create a class in Python.                                  |
 | [Instantiating Objects](./instantiating-objects/README.md)          | -- | -- | Instantiate objects from a class in Python.                |
 | [Overriding Methods](./overriding-methods/README.md)                | -- | -- | Override methods in a class in Python.                     |
 | [Create a Vehicle Class](./create-a-vehicle-class/README.md)        | -- | -- | Create a `Vehicle` class in Python.                        |
