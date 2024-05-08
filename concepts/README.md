@@ -44,6 +44,6 @@ In Python, dictionaries can be created using dictionary literal syntax, so why a
 
 Continuing from our car example above, imagine we are building an application for a car dealership. We want to track their inventory of cars and make modifications over time. When we build the application, we can't possibly know the make, model, and color of every car the dealership will ever sell.
 
-Without classes, we would have to add a new object literal in the application's code every time the dealership buys a new car. A more efficient approach can be taken with classes. We can construct a `Car` class that defines a car's basic structure and behaviors. In this example, every instance of a car has a `make`, `model`, and `color` and can be driven with the `drive()` method.
+Without classes, we would have to add a new dictionary literal in the application's code every time the dealership buys a new car. A more efficient approach can be taken with classes. We can construct a `Car` class that defines a car's basic structure and behaviors. In this example, every instance of a car has a `make`, `model`, and `color` and can be driven with the `drive()` method.
 
 Going further, developers use classes to implement the four principles of OOP in applications, enabling more robust, modular, and reusable code.
