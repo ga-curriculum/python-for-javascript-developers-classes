@@ -10,23 +10,23 @@ We'll cover how to create classes, create objects from those classes, and use in
 
 | Lesson | Video Time | Video | Skills |
 | ------ | :--------: | :---: | ------ |
-| [Setup](../setup/README.md)                                          | -- | -- | Setting up the development environment.                    |
-| [Concepts](../concepts/README.md)                                    | -- | -- | Describe classes in Python.                                |
-| [Writing a Python Class](../writing-a-python-class/README.md)        | -- | -- | Create a class in Python.                                  |
-| [Instantiating Objects](../instantiating-objects/README.md)          | -- | -- | Instantiate objects from a class in Python.                |
-| [Overriding Methods](../overriding-methods/README.md)                | -- | -- | Override methods in a class in Python.                     |
-| [Create a `Vehicle` Class](../create-a-vehicle-class/README.md)      | -- | -- | Create a `Vehicle` class in Python.                        |
-| [Class vs. Instance Members](../class-vs-instance-members/README.md) | -- | -- | Compare and contrast class and instance members in Python. |
-| [Inheritance](../inheritance/README.md)                              | -- | -- | Practice class inheritance in Python.                      |
-| **Total content**                                                    | -- | -- |                                                            |
+| [Setup](../setup/README.md)                                          |  2 min | [link](https://generalassembly.wistia.com/medias/ws2n5chhdx) | Setting up the development environment.                    |
+| [Concepts](../concepts/README.md)                                    |  4 min | [link](https://generalassembly.wistia.com/medias/5xle6zxl5n) | Describe classes in Python.                                |
+| [Writing a Python Class](../writing-a-python-class/README.md)        |  5 min | [link](https://generalassembly.wistia.com/medias/to51e2bjb5) | Create a class in Python.                                  |
+| [Instantiating Objects](../instantiating-objects/README.md)          |  4 min | [link](https://generalassembly.wistia.com/medias/ndsphtq71y) | Instantiate objects from a class in Python.                |
+| [Overriding Methods](../overriding-methods/README.md)                |  5 min | [link](https://generalassembly.wistia.com/medias/uasymeu7ii) | Override methods in a class in Python.                     |
+| [Create a `Vehicle` Class](../create-a-vehicle-class/README.md)      |  8 min | [link](https://generalassembly.wistia.com/medias/yos34a62cu) | Create a `Vehicle` class in Python.                        |
+| [Class vs. Instance Members](../class-vs-instance-members/README.md) |  9 min | [link](https://generalassembly.wistia.com/medias/gcxy5vgnrk) | Compare and contrast class and instance members in Python. |
+| [Inheritance](../inheritance/README.md)                              |  7 min | [link](https://generalassembly.wistia.com/medias/itsu9ccgtx) | Practice class inheritance in Python.                      |
+| **Total content**                                                    | 44 min | --                                                           |                                                            |
 
 ## Level Up content
 
 | Lesson | Video Time | Video | Skills |
 | ------ | :--------: | :---: | ------ |
-| [Create a `BankAccount` Class](../create-a-bank-account-class/README.md)             | -- | -- | Create an additional class in Python. |
-| [Create a `SavingsAccount` Subclass](../create-a-savings-account-subclass/README.md) | -- | -- | Create a subclass in Python.          |
-| **Total Level Up content**                                                           | -- | -- |                                       |
+| [Create a `BankAccount` Class](../create-a-bank-account-class/README.md)             | 11 min | [link](https://generalassembly.wistia.com/medias/1kjuvlka27) | Create an additional class in Python. |
+| [Create a `SavingsAccount` Subclass](../create-a-savings-account-subclass/README.md) |  7 min | [link](https://generalassembly.wistia.com/medias/ne1fr6qqt4) | Create a subclass in Python.          |
+| **Total Level Up content**                                                           | 18 min | --                                                           |                                       |
 
 ## References
 
