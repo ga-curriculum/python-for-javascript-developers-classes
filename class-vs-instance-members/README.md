@@ -1,4 +1,7 @@
-# ![Python for JavaScript Developers - Python Classes - Class vs. Instance Members](./assets/hero.png)
+<h1>
+  <span class="headline">Classes</span>
+  <span class="subhead">Class vs. Instance Members</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to compare and contrast class and instance members in Python.
 

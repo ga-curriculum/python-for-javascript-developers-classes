@@ -1,4 +1,7 @@
-# ![Python for JavaScript Developers - Python Classes - Create a Vehicle Class](./assets/hero.png)
+<h1>
+  <span class="headline">Classes</span>
+  <span class="subhead">Create a <code>Vehicle</code> Class</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will have more practice creating classes in Python.
 

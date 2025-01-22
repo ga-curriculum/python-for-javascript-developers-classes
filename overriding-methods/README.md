@@ -1,4 +1,7 @@
-# ![Python for JavaScript Developers - Python Classes - Overriding Methods](./assets/hero.png)
+<h1>
+  <span class="headline">Classes</span>
+  <span class="subhead">Overriding Methods</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to override methods in a class.
 

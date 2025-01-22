@@ -1,4 +1,7 @@
-# ![Python for JavaScript Developers - Python Classes - Create a Savings Account Class](./assets/hero.png)
+<h1>
+  <span class="headline">Classes</span>
+  <span class="subhead">Create a <code>SavingsAccount</code> Subclass</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to create a sub class and instantiate objects from it.
 

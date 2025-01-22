@@ -1,4 +1,7 @@
-# ![Python for JavaScript Developers - Python Classes](../assets/hero.png)
+<h1>
+  <span class="prefix">Python for JavaScript Developers</span>
+  <span class="headline">Classes</span>
+</h1>
 
 ## About
 

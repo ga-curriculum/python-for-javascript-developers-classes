@@ -1,4 +1,7 @@
-# ![Python for JavaScript Developers - Python Classes - Writing a Python Class](./assets/hero.png)
+<h1>
+  <span class="headline">Classes</span>
+  <span class="subhead">Writing a Python Class</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to write a Python class with instance methods and default parameters.
 
