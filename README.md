@@ -38,8 +38,8 @@ We'll cover how to create classes, make objects from them, and use inheritance a
 
 ### Course landing pages
 
-- [SEB - Software Engineering Bootcamp](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/python-for-javascript-developers-classes/canvas-landing-pages/seb.html)
-- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/python-for-javascript-developers-classes/canvas-landing-pages/fallback.html)
+- [SEB - Software Engineering Bootcamp](https://ga-curriculum.github.io/python-for-javascript-developers-classes/canvas-landing-pages/seb.html)
+- [Fallback](https://ga-curriculum.github.io/python-for-javascript-developers-classes/canvas-landing-pages/fallback.html)
 
 ### Resources
 
@@ -51,4 +51,4 @@ We'll cover how to create classes, make objects from them, and use inheritance a
 
 ---
 
-**Find a 👾 bug 👾 or have suggestions? [Let us know](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/module-feedback.html)!**
+**Find a 👾 bug 👾 or have suggestions? [Let us know](https://ga-curriculum.github.io/universal-resources-internal/module-feedback.html)!**
